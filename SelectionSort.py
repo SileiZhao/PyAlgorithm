@@ -19,8 +19,8 @@ class Solution(object):
                     min_index = j
                 if array[j] > array[max_index]:
                     max_index = j
-            array[min_index], array[i] = array[i], array[min_index] #将最小的放到本轮的最前面
-            array[max_index], array[n] = array[n], array[max_index] #将最大的放到本轮的最前面
+            array[min_index], array[i] = array[i], array[min_index]  # 将最小的放到本轮的最前面
+            array[max_index], array[n] = array[n], array[max_index]  # 将最大的放到本轮的最前面
 
 
 if __name__ == '__main__':
