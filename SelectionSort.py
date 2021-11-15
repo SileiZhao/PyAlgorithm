@@ -14,7 +14,7 @@ class Solution(object):
             min_index = i
             max_index = n - 1
             n = n - 1
-            for j in range(i+1,n+1):
+            for j in range(i+1, n+1):
                 if array[j] < array[min_index]:
                     min_index = j
                 if array[j] > array[max_index]:
