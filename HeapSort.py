@@ -8,13 +8,15 @@ class Solution(object):
             # 取值之后需要进行堆内调整 i 为剩余结点数 每次调整均需要从 0 开始
             self.heapify(arr, i, 0)
         return arr
-    def buildHeap(self, arr: [int], n):
+
+    def buildHeap(self, arr: [int], n: int):
         # 建堆函数只在排序开始后执行一次
         last_node = n - 1
         parent = (last_node + 1) // 2
         for i in range(parent, -1, -1):
             self.heapify(arr, n, i)
-    def heapify(self, arr, n, i):
+
+    def heapify(self, arr: [int], n: int, i: int):
         if i >= n:
             return
         c1 = 2 * i + 1

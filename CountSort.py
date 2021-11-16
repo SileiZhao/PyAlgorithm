@@ -15,6 +15,7 @@ class Solution(object):
             index += 1
             j += 1
         return result
+
     # 稳定的计数排序
     def CountSort_1(self, arr: [int]) -> [int]:
         min_number = min(arr)

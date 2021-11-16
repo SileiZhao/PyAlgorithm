@@ -13,6 +13,7 @@ class Solution(object):
             gap = int(gap / 2)
         return arr
 
+
 if __name__ == '__main__':
     array = [10, 2, 5, 6, 0, 9, 1, 3, 4, 8, 7]
     solution = Solution()
