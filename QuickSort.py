@@ -22,6 +22,7 @@ class Solution(object):
         self.QuickSort(arr, mid + 1, rightBound)
         return arr
 
+
 if __name__ == '__main__':
     array = [7, 3, 2, 8, 1, 9, 5, 4, 6, 10, 0]
     solution = Solution()

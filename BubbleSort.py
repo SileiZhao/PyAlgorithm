@@ -8,8 +8,8 @@ class Solution(object):
                     array[j + 1] = array[j]
                     array[j] = temp
         return array
-# 优化1：遍历数组没有元素发生位置交换时，结束排序,最好复杂度为O(n)
 
+# 优化1：遍历数组没有元素发生位置交换时，结束排序,最好复杂度为O(n)
 
 class optimizing(object):
     @staticmethod
@@ -23,7 +23,6 @@ class optimizing(object):
                     arr[j], arr[j + 1] = arr[j + 1], arr[j]
             if not swapped: break
         return arr
-
 
 
 if __name__ == '__main__':

@@ -1,4 +1,5 @@
 from typing import List
+
 class Solution(object):
     @staticmethod
     def merge(arr1: List[int], arr2: List[int]):
@@ -22,6 +23,6 @@ class Solution(object):
 
 
 if __name__ == '__main__':
-    array = [1, 4, 7, 8, 3, 6, 9]
+    array = [1, 4, 2, 7, 5, 8, 3, 6, 9, 10]
     solution = Solution()
     print(solution.merge_sort(array))
