@@ -9,6 +9,7 @@ def swap(a: int, b: int) -> int:
 
 
 if __name__ == '__main__':
-    a = 12
-    b = 29
+    arr = [1, 2, 3, 4, 5]
+    a = arr[2]
+    b = arr[2]
     print(swap(a, b))
