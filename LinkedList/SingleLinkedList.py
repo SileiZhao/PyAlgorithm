@@ -93,3 +93,6 @@ class SingleLinkList(object):
                 return True
             cur = cur.next
         return False
+
+if __name__ == '__main__':
+    singlelinkedlist = SingleLinkList()
