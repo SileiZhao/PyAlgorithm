@@ -1,3 +1,7 @@
+# Enumerate the middle of the string and check if it is a palindrome.
+# For a string of length n and n is an odd, there are n middles.
+# For a string of length n and n is an even, there are n-1 middles.
+
 class Solution(object):
 
     def longestPalidrome(self, s):
